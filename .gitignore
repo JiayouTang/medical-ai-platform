@@ -1,0 +1,31 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Large or sensitive data should not be committed by default.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+009 医养项目数据/
+*.rar
+
+# Third-party source is tracked by documentation, not committed into core repo.
+third_party/*
+!third_party/README.md
+
+# Frontend/build outputs.
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local tool state.
+.DS_Store
+*.log

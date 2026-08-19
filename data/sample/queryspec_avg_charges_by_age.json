@@ -1,0 +1,35 @@
+{
+  "table": "inpatient",
+  "filters": [
+    {
+      "field": "DischargeYear",
+      "op": "=",
+      "value": 2021
+    },
+    {
+      "field": "AgeGroup",
+      "op": "in",
+      "value": ["50to69", "70orOlder"]
+    }
+  ],
+  "group_by": ["AgeGroup"],
+  "metrics": [
+    {
+      "field": "TotalCharges",
+      "agg": "avg",
+      "alias": "avg_total_charges"
+    },
+    {
+      "field": "*",
+      "agg": "count",
+      "alias": "patient_count"
+    }
+  ],
+  "order_by": [
+    {
+      "field": "avg_total_charges",
+      "direction": "desc"
+    }
+  ],
+  "limit": 100
+}

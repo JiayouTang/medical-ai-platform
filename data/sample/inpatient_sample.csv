@@ -1,0 +1,21 @@
+FacilityName,AgeGroup,Gender,RaceEthnicity,LengthOfStay,DischargeYear,AdmissionType,CCSRDiagnosisCode,CCSRDiagnosisDescription,APRDRGCode,APRDRGDescription,APRSeverityOfIllnessCode,APRRiskOfMortality,PaymentTypology1,EmergencyDepartmentIndicator,TotalCharges,TotalCosts
+Albany General Hospital,0to17,Female,White,2,2021,Emergency,END001,Endocrine disorders,420,Diabetes,1,Minor,Medicaid,Yes,6200.50,3100.25
+Albany General Hospital,18to29,Male,Black,3,2021,Urgent,CIR002,Circulatory disease,194,Heart failure,2,Moderate,Private Health Insurance,Yes,15400.00,7200.00
+Albany General Hospital,30to49,Female,Hispanic,1,2021,Elective,PNL001,Pregnancy and delivery,560,Vaginal delivery,1,Minor,Medicaid,No,8200.00,4100.00
+Albany General Hospital,50to69,Male,White,5,2021,Emergency,CIR002,Circulatory disease,194,Heart failure,3,Major,Medicare,Yes,36200.00,18800.00
+Albany General Hospital,70orOlder,Female,White,7,2021,Emergency,INF001,Septicemia,720,Sepsis,4,Extreme,Medicare,Yes,68400.00,34200.00
+Hudson Valley Medical Center,0to17,Male,Asian,1,2021,Newborn,NBN001,Newborn care,640,Neonate birthweight normal,1,Minor,Private Health Insurance,No,5400.00,2200.00
+Hudson Valley Medical Center,18to29,Female,White,2,2021,Emergency,INJ001,Injury,910,Trauma,1,Minor,Self-Pay,Yes,9700.00,5100.00
+Hudson Valley Medical Center,30to49,Male,Black,4,2021,Urgent,RES001,Respiratory disease,140,COPD,2,Moderate,Medicaid,Yes,21100.00,9800.00
+Hudson Valley Medical Center,50to69,Female,Hispanic,6,2021,Emergency,DIG001,Digestive disease,260,Major bowel procedure,3,Major,Medicare,Yes,48800.00,24400.00
+Hudson Valley Medical Center,70orOlder,Male,White,8,2021,Emergency,CIR002,Circulatory disease,194,Heart failure,4,Extreme,Medicare,Yes,73200.00,36100.00
+Metro Teaching Hospital,0to17,Female,Hispanic,2,2022,Emergency,RES001,Respiratory disease,141,Asthma,1,Minor,Medicaid,Yes,7800.00,3900.00
+Metro Teaching Hospital,18to29,Male,White,1,2022,Elective,MUS001,Musculoskeletal disease,310,Knee procedure,1,Minor,Private Health Insurance,No,12600.00,6100.00
+Metro Teaching Hospital,30to49,Female,Asian,3,2022,Urgent,DIG001,Digestive disease,249,Gastroenteritis,2,Moderate,Private Health Insurance,No,18900.00,9200.00
+Metro Teaching Hospital,50to69,Male,Black,4,2022,Emergency,END001,Endocrine disorders,420,Diabetes,2,Moderate,Medicare,Yes,27500.00,13400.00
+Metro Teaching Hospital,70orOlder,Female,White,9,2022,Emergency,INF001,Septicemia,720,Sepsis,4,Extreme,Medicare,Yes,81200.00,40700.00
+North County Hospital,0to17,Male,White,1,2022,Emergency,INJ001,Injury,910,Trauma,1,Minor,Private Health Insurance,Yes,6900.00,3300.00
+North County Hospital,18to29,Female,Black,2,2022,Urgent,GEN001,Genitourinary disease,460,Kidney infection,2,Moderate,Medicaid,Yes,14300.00,7000.00
+North County Hospital,30to49,Male,Hispanic,3,2022,Emergency,RES001,Respiratory disease,140,COPD,2,Moderate,Self-Pay,Yes,22400.00,10600.00
+North County Hospital,50to69,Female,Asian,5,2022,Elective,CIR003,Cardiac procedure,171,Cardiac catheterization,3,Major,Private Health Insurance,No,52900.00,25100.00
+North County Hospital,70orOlder,Male,White,6,2022,Emergency,DIG001,Digestive disease,260,Major bowel procedure,3,Major,Medicare,Yes,61100.00,29900.00
